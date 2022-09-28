@@ -89,7 +89,7 @@ a:hover {
 		flex-wrap: wrap;
 	}
 	.logo {
-		position: relative;
+		position: block;
 		margin-top: 15px;
 		width: 100%;
 	}
@@ -163,11 +163,11 @@ a:hover {
 }
 @media (max-width: 300px) {
   #hero input[type="email"] {
-    position: relative;
+    position: static;
     min-width: auto;
   }
   #hero .btn {
-    position: relative;
+    position: static;
     min-width: auto;
   }
 }
