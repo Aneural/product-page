@@ -246,6 +246,7 @@ a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 30px;
 }
 #pricing .level > h2{
   display: flex;
@@ -304,10 +305,8 @@ a:hover {
 
 /* footer section config start */
 footer {
-  max-width: 975px;
   width: 100%;
   height: 70px;
-  margin-top: 40px;
   display: flex;
   background: rgb(212, 211, 211);
   flex-direction: column;
